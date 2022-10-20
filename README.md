@@ -1,4 +1,4 @@
-# web1lab1
+
 # CARA PENGGUNAAN GIT
 ## APA ITU GIT?
 *Git adalah salah satu sistem pengontrol versi (Version Control System)
@@ -13,12 +13,10 @@ tempat saja.
 
 • Download Git, buka website resminya Git (git-scm.com).
 • Kemudian unduh Git sesuai dengan arsitektur komputer kita. Kalau
-menggunakan 64bit, unduh yang 64bit. Begitu juga kalau
-menggunakan 32bit.
+menggunakan 64bit, unduh yang 64bit. Begitu juga kalau menggunakan 32bit.
 • Selamat, Git sudah terinstal di Windows. Untuk mencobanya, silahkan
 buka CMD atau PowerShell, kemudian ketik perintah
 ![gambar 1](screenshot/1.jpg)
-
 
 ## MENAMBAHKAN GLOBAL CONFIG
 
@@ -30,7 +28,7 @@ repository.
 saat menjalankan perintah git commit
 
 ### Config Global Repository
-
+![gambar 2](screenshot/2.jpg)
 
 
 ## PERINTAH DASAR GIT
@@ -48,7 +46,6 @@ server/repository server pada local repositry (working directory)
 • git pull, perintah untuk mengambil/mendownload perubahan terbaru dari
 server repository ke local repository
 
-
 ## Membuat Reposiory Local
 
 • Buka direktory aktif, misal: d:\labs_pemrograman1 (buka
@@ -56,10 +53,7 @@ menggunakan Windows Explorer)
 • klik kanan pada direktory aktif tersebut, dan pilih menu Git Bash,
 sehingga muncul git bash commad
 • Buat direktory project praktikum pertama dengan nama latihan1
-This text you see here is *actually- written in Markdown! To get a feel
-for Markdown's syntax, type some text into the left window and
-watch the results in the right.
-
+![gambar 3](screenshot/3.jpg)
 • Sehingga terbentuk satu direktori baru dibawahnya, selanjutnya
 masuk kedalam direktori tersebut dengan perintah cd (change
 directory)
@@ -68,36 +62,35 @@ directory)
 ## Membuat Reposiory Local
 
 • Jalankan perintah git init, untuk membuat repository local.
-
+![gambar 4](screenshot/4.jpg)
 • Repository baru berhasil di inisialisasi, dengan terbentuknya satu
 direktori hidden dengan nama .git
 • Pada direktori tersebut, semua perubahan pada working directory
 akan disimpan.
 
-And of course Dillinger itself is open source with a [public repository][dill]
- on GitHub.
- 
 ## Menambahkan File baru pada repository
 
 • Untuk membuat file dapat menggunakan text editor, lalu menyimpan
 filenya pada direktori aktif (repository)
 • disini kita akan coba buat satu file bernama README.md (text file)
-
+![gambar 5](screenshot/5.jpg)
 • File README.md berhasil dibuat.
+![gambar 6](screenshot/6.jpg)
 
 ## Menambahkan File baru pada repository
 
 • Untuk menambahkan file yang baru saja dibuat tersebut gunakan
 perintah git add.
-
+![gambar 7](screenshot/7.jpg)
 • File README.md berhasil ditambahkan.
+![gambar 8](screenshot/8.jpg)
 
 ## Commit (Menyimpan perubahan ke database)
 
 • Untuk menyimpan perubahan yang ada kedalam database repository
 local, gunakan perintah git commit -m “komentar commit”
+![gambar 9](screenshot/9.jpg)
 
-• Perubahan berhasil disimpan.
 
 ## Membuat repository server
 
@@ -105,11 +98,14 @@ local, gunakan perintah git commit -m “komentar commit”
 • Anda harus membuat akun terlebih dahulu.
 • Pada laman github, klik tombol start a project, atau
 • Dari menu (icon +) klik New Repository
+![gambar 10](screenshot/10.jpg)
+![gambar 11](screenshot/11.jpg)
 
 ## Membuat repository server
 
 • Isi nama repositorynya, misal: labpy1.
 • lalu klik tombol Create repository
+![gambar 12](screenshot/12.jpg)
 
 ## Menambahkan Remote Repository
 
@@ -118,25 +114,22 @@ digunakan untuk menyimpan setiap perubahan pada local repository,
 sehingga dapat diakses oleh banyak user.
 • Untuk menambahkan remote repository server, gunakan perintah
 git remote add origin [url]
+![gambar 13](screenshot/13.jpg)
 
 ## Push (Mengirim perubahan ke server)
 
 • Untuk mengirim perubahan pada local repository ke server gunakan
 perintah git push.
-
+![gambar 14](screenshot/14.jpg)
 • Perintah ini akan meminta memasukkan username dan password
 pada akun github.com
+![gambar 15](screenshot/15.jpg)
 
 ## Melihat hasilnya pada server repository
 
-• Buka laman github.com,
-
-arahkan pada repositori-
-nya.
-
-• Maka perubahan akan
-terlihat pada laman
-tersebut.
+• Buka laman github.com, arahkan pada repositorinya.
+• Maka perubahan akan terlihat pada laman tersebut.
+![gambar 16](screenshot/16.jpg)
 
 ## Clone Repository
 
@@ -144,6 +137,7 @@ tersebut.
 dan secara otomatis membuat satu direktory sesuai dengan nama
 repositorynya (working directory).
 • Untuk melakukan cloning, gunakan perintah git clone [url]
+![gambar 17](screenshot/17.jpg)
 
 ## Kegunaan file README.md
 
